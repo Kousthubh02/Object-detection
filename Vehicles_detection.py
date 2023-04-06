@@ -1,10 +1,10 @@
 import cv2
 
 # capture frames from a video
-cap = cv2.VideoCapture(r'D:\Prog\OpenCV\Car Detection\New-GithubTest-master\carr.mp4')
+cap = cv2.VideoCapture('carv.mp4')
 
 # Trained XML classifiers describes some features of some object we want to detect
-car_cascade = cv2.CascadeClassifier(r'D:\Prog\OpenCV\Car Detection\New-GithubTest-master\cars.xml')
+car_cascade = cv2.CascadeClassifier('carx.xml')
 
 # loop runs if capturing has been initialized.
 while True:
